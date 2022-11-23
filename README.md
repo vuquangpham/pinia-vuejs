@@ -14,7 +14,7 @@ For state management purpose (just like Vuex) with more features (for replacing 
 
 ### Syntax
 
-I have to describe the difference of `syntax` first, because other different has relied on it.
+I have to describe the difference of `syntax` first, because others different has relied on it.
 
 #### Vuex
 
