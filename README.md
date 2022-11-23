@@ -49,7 +49,7 @@ export const useCounterStore = defineStore('counter', {
 const store = useCounterStore()
 ```
 
-### Diagram ([Source](https://betterprogramming.pub/testing-pinia-is-vuex-out-43e0531824f5))
+### Diagram ([Image Source](https://betterprogramming.pub/testing-pinia-is-vuex-out-43e0531824f5))
 
 #### Vuex
 
