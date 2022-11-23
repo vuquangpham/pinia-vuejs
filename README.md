@@ -185,5 +185,5 @@ store.saveData(data);
 - [Plugins](https://pinia.vuejs.org/core-concepts/plugins.html) 
 - Subscribing to [state](https://pinia.vuejs.org/core-concepts/state.html#subscribing-to-the-state), [actions](https://pinia.vuejs.org/core-concepts/actions.html#subscribing-to-actions)
 
-And that's it!!! We can get more details on Pinia [documentation](https://pinia.vuejs.org/)
+And that's it!!! We can get more details on [Pinia Documentation](https://pinia.vuejs.org/)
 
