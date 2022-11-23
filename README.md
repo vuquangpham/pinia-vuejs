@@ -20,8 +20,6 @@ I have to describe the difference of `syntax` first, because others different ha
 
 In Vuex, behind the scene, we have to merge all `modules` into one big store (you have to know about `module` and `namespaced` in Vuex to exactly know this).
 
-So, If I only want to use `store` of `moduleA`, I have to import `store` (the biggest store) and just use 1 module inside 🙄🙄
-
 ```javascript
 // Vuex Store
 export default createStore({
@@ -32,6 +30,8 @@ export default createStore({
     },
 });
 ```
+
+So, If I only want to use `store` of `moduleA`, I have to import `store` (the biggest store) and just use 1 module inside 🙄🙄
 
 ### Pinia
 
@@ -154,6 +154,27 @@ const store = defineStore('data', {
         }
     }
 })
+
+// in component
+
+// Vuex
+// if we want to call action in Vuex Store, we have to use this syntax
+export default {
+    methods: {
+        handleFormSubmit() {
+            // demo data
+            const data = [];
+            this.$store.dispatch('moduleA/saveData'); // remove moduleA if we didn't use the namespaced feature
+        }
+    }
+}
+
+// Pinia
+const store = useCounterStore()
+
+// demo data
+const data = [];
+store.saveData(data);
 ```
 
 ### More features in Pinia
