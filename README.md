@@ -7,7 +7,7 @@ For state management purpose (just like Vuex) with more features (for replacing 
 ## Why should we use Vuex?
 
 - Pinia is simpler and intuitive than Vuex.
-- Pinia brings the benefirs of Composition API (I have written an [article](https://github.com/vuquangpham/compositions-api-vuejs) about why should we use Compositions API and migrate from Options API to Compositions API)
+- Pinia brings the benefits of Composition API (I have written an [article](https://github.com/vuquangpham/compositions-api-vuejs) about why should we use Compositions API and migrate from Options API to Compositions API)
 - Pinia supports `Typescript` (I haven't used `Typescript ` before, so I don't have any ideas about `Typescript` in Vuex and `Typescript` in Pinia)
 
 ## Comparing Pinia vs Vuex
